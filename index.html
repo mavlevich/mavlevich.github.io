@@ -15,9 +15,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </head>
 <body>
-
     <div class="container">
-      <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #000000;">
+      <nav class="navbar navbar-expand-md navbar-dark shadow p-0 mb-5 bg-black rounded" style="background-color: #000000;">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -38,85 +37,111 @@
                 </li>
             </ul>
         </div>    
-    </nav>
+      </nav>
     </div>
+    
 
-    
-    <p>
-        <!-- Тупо костыль для отступа -->
-    </p>
-    
     <div class="container">
+        <div class="row row-cols-1 row-cols-md-2">
+            <div class="col-md-6">
+              <div class="card h-100 shadow p-0 mb-0 bg-white rounded">
+                <img class="card-img-top shadow p-0 mb-0 bg-white rounded" src="zakopane4.jpg" alt="portrait">
+              </div>
+            </div>
 
-        <div class="card">
-            <div class="card-body">
-                <h1 class="display-4">I am Evgenij Mavlevich</h1>
-                <p class="lead">and its my personal webpage.</p>
+            <div class="col-md-6">
+              <div class="card h-100 shadow p-0 mb-0 bg-white rounded"> 
+                <div class="card-body">
+                  <h1 class="display-4">I am Evgenij Mavlevich</h1>
+                  <p class="lead">and its my personal webpage.</p>
+              </div>
+              </div>
             </div>
         </div>
+        <p></p>
+    </div>
 
-        <p>
-            <!-- Тупо костыль для отступа -->
-        </p>
+    
+    
+    <div class="container">
+      <p></p>
+      <div class="card h-100 shadow p-0 mb-3 bg-white rounded">
+        <div class="card-body">
+          <h1 class="display-4">Web development</h1>
+        </div>
+      </div>
 
-        <div class="row row-cols-1 row-cols-md-2">
-            <div class="col mb-6">
-              <div class="card h-100">
-                <img class="card-img-top" src="Zakopane4.jpg" alt="zakopane">
-              </div>
-            </div>
-            <div class="col mb-6">
-              <div class="card h-100"> 
-                <div class="card-body">
-                  <blockquote class="blockquote">
-                    <p class="mb-0">“Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the Universe trying to produce bigger and better idiots. So far, the Universe is winning.”</p>
-                    <p></p>
-                    <footer class="blockquote-footer text-right">Rick Cooc<cite title="Название источника"></cite></footer>
-                  </blockquote>
-                  <p class="card-text"></p>
-                </div>
-              </div>
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-3">
+          <div class="card h-100 shadow p-0 mb-5 bg-white rounded">
+            <img class="card-img-top" src="bootstrap-1920-1080.png" alt="bootstrap">
+            <div class="card-body">
+              <h5 class="card-title">Bootstrap.</h5>
+              <p class="card-text">Quickly design and customize responsive mobile-first sites with Bootstrap, the
+                world's most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid
+                system, extensive prebuilt components, and powerful JavaScript plugins.</p>
             </div>
           </div>
-    </div>
-    <p>
-        <!-- Тупо костыль для отступа -->
-    </p>
-    <div class="container">
-    <p></p>            
+        </div>
+        <div class="col mb-3">
+          <div class="card h-100 shadow p-0 mb-5 bg-white rounded">
+            <img class="card-img-top" src="javascript1600x900.jpg" alt="js">
+            <div class="card-body">
+              <h5 class="card-title">Javascript.</h5>
+              <p class="card-text">Alongside HTML and CSS, JavaScript is one of the core technologies of the World Wide
+                Web. JavaScript enables interactive web pages and is an essential part of web applications. The vast
+                majority of websites use it for client-side page behavior. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-3">
+          <div class="card h-100 shadow p-0 mb-5 bg-white rounded">
+            <img class="card-img-top" src="mongoDB-2400-1500.jpg" alt="mongoDB">
+            <div class="card-body">
+              <h5 class="card-title">MongoDB.</h5>
+              <p class="card-text">We're the creators of MongoDB, the most popular database for modern apps, and MongoDB
+                Atlas, the global cloud database on AWS, Azure, and GCP.</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-        <div class="row row-cols-1 row-cols-md-3">
-            <div class="col mb-3">
-              <div class="card h-100">
-                <img class="card-img-top" src="csharp1600x900.jpg" alt="csharp">
-                <div class="card-body">
-                  <h5 class="card-title">.NET</h5>
-                  <p class="card-text">Applications, backend, mySQL</p>
-                </div>
-              </div>
-            </div>
-            <div class="col mb-3">
-              <div class="card h-100">
-                <img class="card-img-top" src="javascript1600x900.jpg" alt="js">
-                <div class="card-body">
-                  <h5 class="card-title">Do you need a personal website?</h5>
-                  <p class="card-text">I can do that. Technologies: javascript, bootstrap, NODE.js, mongoDB</p>
-                </div>
-              </div>
-            </div>
-            <div class="col mb-3">
-              <div class="card h-100">
-                <img class="card-img-top" src="python1600x900.jpg" alt="python">
-                <div class="card-body">
-                  <h5 class="card-title">A little bit of everything.</h5>
-                  <p class="card-text">data analysis, backend, neural networks</p>
-                </div>
-              </div>
-            </div>
-            
-    </div>
+      <div class="card h-100 shadow p-0 mb-3 bg-white rounded">
+        <div class="card-body">
+          <h1 class="display-4">Software development</h1>
+        </div>
+      </div>
 
-</div>
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-3">
+          <div class="card h-100 shadow p-0 mb-5 bg-white rounded">
+            <img class="card-img-top" src="csharp1600x900.jpg" alt="csharp">
+            <div class="card-body">
+              <h5 class="card-title">.NET Framework</h5>
+              <p class="card-text">Applications, backend, MVC.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-3">
+          <div class="card h-100 shadow p-0 mb-5 bg-white rounded">
+            <img class="card-img-top" src="mySQL-1920-1080.jpg" alt="mySQL">
+            <div class="card-body">
+              <h5 class="card-title">mySQL</h5>
+              <p class="card-text">MySQL Database Service is a fully managed database service to deploy cloud-native applications. HeatWave, an integrated, high-performance analytics engine accelerates MySQL performance by 400x.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-3">
+          <div class="card h-100 shadow p-0 mb-5 bg-white rounded">
+            <img class="card-img-top" src="python1600x900.jpg" alt="python">
+            <div class="card-body">
+              <h5 class="card-title">A little bit of everything.</h5>
+              <p class="card-text">Data analysis, backend, neural networks.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     
 
     
